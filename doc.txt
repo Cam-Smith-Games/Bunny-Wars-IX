@@ -1,0 +1,73 @@
+TO DO:
+when player dies, coins set to 0...
+	make coins quickly decrement and add sound effect so players all like "nooo...my coinnnsss!"
+fix keys...laptop only pressing 2 buttons at a time for some reason (non-mechanical keyboards?)
+decoration (trees, fountains, flowers, etc... uncollidable tiles)
+bg music
+ball form cooldown (with visual of some sort (cooldown bar))
+zombie chat bubbles ('brainz....')
+
+
+
+controls:
+	up = jump/doublejump/walljump 
+	left/right = move
+	down = spectral slam
+	shift = dash
+	space = ball of doom
+
+
+
+
+ground pound attack
+ - sonic ball attack
+ will need 3 animations
+ 	1. transitioning into ball form
+ 	2. ball form (really fast animation speed, maybe also add more frames by rotating in photoshop)
+ 	3. transitioning out of ball form
+
+ 	space pressed, transition into ball form, animation done, set ball form to true
+ 	while ball form true, just spin, maybe do something to gravity idk
+ 	player hurts enemies and isnt hurt by enemies while in ball form, and bounces off of enemies
+
+teleport attack
+need 2 animations
+	1. hovering above
+	2. landing on ground
+
+	player presses shift mid-air
+	set hover to true, set timer...hovers for a second (first animation) 
+		ALL MOVEMENT PREVENTED WHILE HOVERING
+	timer done, set hover to false, teleport down to ground
+
+	any enemy passed through was damaged 
+	(checking collision with enemy, if collided while teleporting, damage it)
+	different sound effects depending on whether enemy was hit or not?
+
+
+
+
+
+
+------------------------------SOURCES------------------------------
+
+tiles					http://opengameart.org/content/generic-platformer-tiles
+fluppit/floppit 		jimp package at http://open.commonly.cc/
+surge the rabbit 		http://opengameart.org/content/surge-of-opensurge-for-ultimate-smash-friends
+city background 		http://opengameart.org/content/city-background-repetitive-3
+city tiles 				http://opengameart.org/content/city-pixel-tileset
+zombie 					http://opengameart.org/content/zombie-animations
+skeleton 				http://opengameart.org/content/skeleton-animations
+vampire					http://opengameart.org/content/vampire-animations
+carrot					http://opengameart.org/content/platformer-pickups-pack
+healthbars				http://opengameart.org/content/enemy-health-bars
+
+sound effects			http://opengameart.org/content/8-bit-sound-effects-library
+						www.littlerobotsoundfactory.com
+
+sound effects by yd		http://opengameart.org/content/platformer-sounds-terminal-interaction-door-shots-bang-and-footsteps
+
+grass footstep sound    http://opengameart.org/content/grass-foot-step-sounds-yo-frankie
+swish sound  			http://opengameart.org/content/swishes-sound-pack
+zombie sounds 			http://opengameart.org/content/zombies-sound-pack
+sonic sound effect  	https://www.youtube.com/watch?v=w4LnygjLhvc 		(this is probably not legal but i just had to use it)

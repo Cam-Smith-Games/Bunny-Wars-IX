@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'feasfbrg';
+	src: url('feasfbrg.ttf');
+}
+
+body {
+	background-color: black;
+	overflow: hidden;
+}
+#canvas, #canvas2 {
+	position: absolute;
+	background-color: black;
+	left: 5%;
+	top: 5%;
+	width: 90%;
+	height: 90%;
+	background-size: 100% 100%;
+}
+
+#canvas2 {
+	background: transparent;
+}
+
+#mute, #unmute {
+	position: absolute;
+	border: none;
+	width: 10%;
+	height: 10%;
+	left: 0;
+	top: 70px;
+	z-index: 999;
+
+
+}
+
+#mute {
+	visibility: visible;
+	background: url('img/mute.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+#unmute {
+	visibility: hidden;
+	background: url('img/unmute.png') no-repeat;
+	background-size: 100% 100%;
+}
